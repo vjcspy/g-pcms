@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <title>Admin Page</title>
+        <css src="Ves_Backend::css/styles.css" order="102"/>
+        <css src="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" src_type="url"/>
+    </head>
+    <body>
+        <referenceContainer name="header">
+            <block class="Magento\Backend\Block\Page\Header" name="logo" before="-">
+                <arguments>
+                    <argument name="show_part" xsi:type="string">logo</argument>
+                    <argument name="edition" translate="true" xsi:type="string">Community Edition</argument>
+                    <argument name="logo_image_src" xsi:type="string">GGG_Theme/images/logo.png</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+        <referenceContainer name="footer" remove="true" />
+        <referenceContainer name="login.footer" remove="true" />
+    </body>
+</page>
