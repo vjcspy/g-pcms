@@ -328,6 +328,7 @@ return [
         'Dotdigitalgroup_Chat' => 1,
         'Dotdigitalgroup_Enterprise' => 1,
         'GGG_Theme' => 1,
+        'Iz_Catalog' => 1,
         'Iz_Material' => 1,
         'Klarna_Core' => 1,
         'Klarna_Ordermanagement' => 1,
